@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+header .logo span{
+    color: orange;
+}
+header .links{
+    margin-left: 300px;
+}
+header .links a{
+    font-size: 1.1rem;
+}
+header .links a:hover{
+    text-decoration: underline;
+}
+.home-head{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.home-subhead{
+    font-size: 20px;
+}
+.moreBtn{
+    margin-bottom: 100px;   
+}
+.destinations{
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+.img-destination{
+    position: relative;
+    width: 200px;
+    height: 250px;
+}
+.images{
+    width: 100%;
+    height: 100%;
+}
+.destination-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;  
+}
+.destination-content:hover{
+    opacity: 1;
+}
+.explore-content{
+    width: 100%;
+    height: 300px;
+}
+.gallery-content{
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+.img-content{
+    width: 200px;
+    height: 200px;
+}
+.gallery-item{
+    width: 100%;
+    height: 100%;
+}
+.img-content:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.about-section{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.about-content{
+    width: 50%;
+    padding: 60px;
+}
+.about-img{
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+}
+.img-about{
+    width: 100%;
+    height: 100%;
+}
+.img-about:hover{
+    transform: scale(1.04);
+}
+.services{
+    width: 200px;
+    padding: 1rem;
+}
+.service-icons{
+    font-size: 2.5rem;
+    color: orange;
+}
+.service-links{
+    text-decoration: none;
+    color: gray;
+}
+.service-links:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.services:hover{
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+.review-slider{
+    padding: 2rem;
+}
+
+.box{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0.1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.name-head{
+    font-size: 1.5rem;
+}
+.review-content{
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.icons{
+    font-size: 1rem;
+    color: orange;
+}
+
+.contact-image{
+    width: 50%;
+    height: 500px;
+}
+.img-contact{
+    width: 100%;
+    height: 100%;
+    padding: 50px 100px;
+}
+form{
+    width: 50%;
+    padding: 50px;
+}
+.contact-form input{
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 5px;
+}
+.contact-form textarea{
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+    height: 10rem;
+}
+footer{
+    background-color: rgb(56, 55, 55);
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.media{
+    font-size: 25px; 
+    padding-right: 15px; 
+}
+.media:hover{
+    color: blue;
+
+}
+
